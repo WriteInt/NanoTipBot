@@ -1,0 +1,20 @@
+{
+  "name": "tipbot",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start-http": "python3 src/http/main.py",
+    "start-cli": "bun ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/selenium-webdriver": "^4.1.25"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "puppeteer": "^23.1.1",
+    "selenium-webdriver": "^4.23.0"
+  }
+}
