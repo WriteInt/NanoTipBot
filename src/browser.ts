@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 import { init } from "./dm/index.ts";
-import { initm } from "./mention/index.ts";
+import { initm } from "./mentions/index.ts";
 
 const browser = await puppeteer.launch({
   headless: true,
